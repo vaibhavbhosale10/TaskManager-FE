@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+Step 1: Start the Front-End App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Open your terminal or command prompt.Navigate to the project directory containing the React application.Use the following command to start the front-end app:
 
-## Available Scripts
+    npm start
 
-In the project directory, you can run:
+    Wait for the application to build and start. Your default web browser will open, displaying the home page of the React app.
 
-### `npm start`
+Step 2: Access the Login Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    On the navigation bar of the home page, locate and click on the "Login" link.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step 3: Access Tasks (No Authentication Required)
 
-### `npm test`
+    Since the application does not employ authentication or authorization, you can proceed by clicking on the "Login" button without entering an email address or password.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    After clicking "Login," you will be redirected to a page displaying a list of tasks that have already been created.
 
-### `npm run build`
+Step 4: Add a Task
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    To add a new task, look for an option or button on the page labeled "Add Task" or something similar. Click on it to open a task creation form.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Fill in the details of the task, such as a title and description.
+s
+    Submit the form to add the task to the list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step 5: Delete a Task
 
-### `npm run eject`
+    To delete a task, locate the task you wish to remove from the list.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Typically, there will be a "Delete" or similar action associated with each task. Click on this action to delete the task.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Confirm the deletion if prompted.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Conclusion:
+You have successfully run the React front-end app, accessed the list of tasks without the need for authentication or authorization, added a task, and deleted a task. Feel free to explore and interact further with the application as needed.
